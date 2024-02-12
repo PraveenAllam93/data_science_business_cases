@@ -23,9 +23,10 @@ CMD ["python", "-m","flask", "--app", "app.py", "run", "--host=0.0.0.0"]
 #  docker image ls -> gives list of images
 
 # 2. Run the Docker container using the command shown below:
-#     docker run -d -p 5000:5000 loan-prediction-pancakes # Here first 5000 is the port number of the host machine and second 5000 is the port number of the container.
+#     docker run -d -p 5000:5000 churn 
+    # Here first 5000 is the port number of the host machine and second 5000 is the port number of the container.
 
-# 3. To push a docker image named "ano" to docker hub, run the following command:
-#     docker tag loan-prediction-pancakes:latest ano/loan-prediction-pancakes:latest
-#     docker push ano/loan-prediction-pancakes:latest
+# 3. To push a docker image named "churn" to docker hub, run the following command:
+#     docker tag churn:latest praveenallam69/employee-churn:latest
+#     docker push praveenallam69/employee-churn:latest
 
