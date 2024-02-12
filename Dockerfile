@@ -1,7 +1,6 @@
-FROM python:3.11.0-slim-buster
+FROM python:3.8-slim-buster
 
 WORKDIR /flask-churn-app
-
 
 RUN python3 -m pip install --upgrade pip
 
@@ -12,7 +11,6 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 CMD ["python", "-m","flask", "--app", "app.py", "run", "--host=0.0.0.0"]
-
 # step 1: create the docker file, and define
 
 
