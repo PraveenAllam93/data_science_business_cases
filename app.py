@@ -89,28 +89,3 @@ def predict():
 if __name__ == '__main__':
     app.run(debug=True)
 
-"""
-{
-    "Age_max": 23,
-    "City_last": "C24",
-    "Education_Level_last": 2,
-    "Gender_last": 1,
-    "Grade_last": 3,
-    "Grade_max": 3,
-    "Grade_mean": 3,
-    "Grade_min": 3,
-    "Income_last": 10000,
-    "Income_mean": 10000,
-    "Joining Designation_last": 2,
-    "Quarterly Rating_max": 3,
-    "Total Business Value_last": 0,
-    "Total Business Value_max": 20020,
-    "Total Business Value_mean": 98283,
-    "Total Business Value_min": 0,
-    "Total Business Value_sum": 100000,
-    "current_month": 8,
-    "days_worked": 120,
-    "income_change": 1,
-    "rating_change": 1
-}
-"""
